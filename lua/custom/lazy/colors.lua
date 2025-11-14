@@ -13,7 +13,5 @@ return {
     -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
     vim.g.everforest_diagnostic_virtual_text = 1
     vim.cmd.colorscheme 'everforest'
-    vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
-    vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
   end,
 }
